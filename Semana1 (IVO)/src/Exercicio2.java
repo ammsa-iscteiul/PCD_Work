@@ -1,15 +1,12 @@
-import java.awt.FlowLayout;
+
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
+
 import javax.swing.JTextField;
 import javax.swing.WindowConstants;
 
@@ -40,7 +37,7 @@ public class Exercicio2 {
 		frame.add(new JLabel(), BorderLayout.CENTER);
 		frame.add(new JButton(), BorderLayout.EAST);
 
-		//addFrameContent();
+		addFrameContent();
 
 		// para que a janela se redimensione de forma a ter todo o seu conteudo
 		// visivel
@@ -91,7 +88,7 @@ public class Exercicio2 {
 		 * abreviatura para passar por cima da criação de uma classe de uma
 		 * interface especificando os métodos obrigatórios dessa interface
 		 */
-		//frame.add(button);
+		frame.add(button);
 
 		JCheckBox center = new JCheckBox("center");
 		frame.add(center);
