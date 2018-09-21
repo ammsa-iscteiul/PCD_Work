@@ -97,6 +97,6 @@ public class Exercicio1 {
 	public static void main(String[] args) {
 		Exercicio1 window = new Exercicio1("Hello");
 		
-		window.open(300, 150);
+		window.open();
 	}
 }
