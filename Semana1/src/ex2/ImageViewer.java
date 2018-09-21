@@ -126,7 +126,7 @@ public class ImageViewer {
 			public boolean accept (File f) {
 				String mimetype= new MimetypesFileTypeMap().getContentType(f);
 
-				if (mimetype.startsWith("image/")) {
+				if (f.isFile() && mimetype.startsWith("image/")) {
 					return true;
 				}else
 					return false;
